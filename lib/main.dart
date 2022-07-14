@@ -11,6 +11,9 @@ import 'package:vapidemo/apidemo7/buttonapi.dart';
 import 'package:vapidemo/apidemo7/userpage_screen.dart';
 import 'package:vapidemo/apidemo8/author_button.dart';
 import 'package:vapidemo/apidemo9/userdata_button.dart';
+import 'package:vapidemo/paginationdemo/pagedemoscreen.dart';
+import 'package:vapidemo/paginationdemo/postuserapi_button.dart';
+import 'package:vapidemo/rupee1/rupee1_screen.dart';
 import 'package:vapidemo/ruppe/rupee_screen.dart';
 import 'package:vapidemo/spin/spin.dart';
 import 'package:vapidemo/spin/spin2.dart';
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
           DeviceType deviceType) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: RuppeScreen(),
+          home: PageDemoScreen(),
         );
       },
     );
